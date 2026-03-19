@@ -1,0 +1,21 @@
+{
+  "name": "doctoe",
+  "version": "1.0.0",
+  "description": "A complete full-stack web application for booking medical appointments with email confirmation, time slot availability, and cancellation support.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.1",
+    "nodemailer": "^8.0.3",
+    "uuid": "^13.0.0"
+  }
+}
